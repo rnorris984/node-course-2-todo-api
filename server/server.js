@@ -55,11 +55,6 @@ app.get('/todos/:id', (req, res) => {
         }).catch((e) => {res.status(400).send()
             });
 
-
-  
-
-
-
     //findByID
         //success
             // if todo - send back
