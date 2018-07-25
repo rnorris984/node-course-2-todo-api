@@ -177,7 +177,7 @@ describe('PATCH /todos/:id', () => {
 
     it('should clear completedAt when todo is not completed', (done) => {
         var hexId = todos[1]._id.toHexString();
-        var text = 'This shoudl be nex thsfh1111';
+        var text = 'This should be new text!!!!!';
         // var txt = req.params.text; 
         // update text, set completed to true
         request(app)
